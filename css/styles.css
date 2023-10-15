@@ -604,8 +604,8 @@ margin-bottom: 72px;
 .footer-sibsribe{
    display: flex;
     flex-direction:column;
-    aalign-items: center;
-/*margin-left: 80px;*/
+    align-items: center;
+
 }
 .foter-social-contenair-titel{
     display: block;
@@ -1039,4 +1039,23 @@ align-items: baseline;
             flex-wrap: nowrap;
               margin-left: auto;
     }
+        .footer-link-logo {
+            display: block;
+        margin-right: 120px;
+            margin-bottom: 72px;}
+          
+          .container-footer {
+           flex-wrap: nowrap;
+        }
+.footer-sibsribe {
+  }
+
 }
+        /*.footer-link-bl {
+            display: none;
+            display: inline-block;}*/
+        .footer-form {
+             display: flex;
+                gap: 24px;
+            }
+    }
