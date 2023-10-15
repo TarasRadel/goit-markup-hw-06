@@ -604,12 +604,12 @@ margin-bottom: 72px;
 .footer-sibsribe{
    display: flex;
     flex-direction:column;
-    align-items: center;
+    aalign-items: center;
 /*margin-left: 80px;*/
 }
 .foter-social-contenair-titel{
     display: block;
-color: #FFF;
+    color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -999,6 +999,30 @@ border-color: #4D5AE5;
 .portfolio-list-item {
 width: calc((100% - 48px) / 3);
 }
+.footer {
+   
+    padding-top: 96px;
+    padding-bottom: 100px;
+.container-footer {
+     display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.footer-link-logo {
+    display: block;
+    margin-left: 108px;
+    margin-right: 24px;}
+
+}
+.footer-sibsribe{
+align-items: baseline;
+}
+.footer-link-bl {
+     display: inline-block;}
+ .footer-form {
+        display: flex;
+        gap: 24px;
+    margin-left: 108px;}
 }
 
 @media screen and (min-width:1158px) {
