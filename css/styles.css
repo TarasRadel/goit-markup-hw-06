@@ -500,22 +500,27 @@ overflow: hidden;
  /*=====================*/
  /*=======Footer==============*/
  .footer {
+    min-width:288px;
     background: #2E2F42;
         padding-top: 100px;
         padding-bottom: 100px;
    
  }
  .footer-link-logo{
-    margin-right: 120px;
+   /* display: block;
+    margin-right: 120px;*/
+    margin-bottom: 72px;
  }
 .container-footer{
-    display: flex;
-    align-items: baseline;  
+   /* display: flex;
+    align-items: baseline;*/
 }
 
 
 .footer-link-bl{
-display: inline-block;
+/*display: inline-block;*/
+display: flex;
+justify-content: center;
 }
  .footer-link {
     color:#4d5ae5;
@@ -527,6 +532,8 @@ display: inline-block;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 16px;
+        margin-right: auto;
+        margin-left: auto;
  }
 
  .footer-logo-dys {
@@ -547,16 +554,23 @@ display: inline-block;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+.foter-social-contenair-titel{
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .foter-social-contenair{
 display: flex;
 flex-direction: column;
 gap: 16px;
+margin-bottom: 72px;
 }
 
 .footer-social-list{
     display: flex;
     gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .team-list-icon {
     display: flex;
@@ -588,9 +602,9 @@ gap: 16px;
     background-color: #31d0aa;}
 
 .footer-sibsribe{
-    display: flex;
+   /* display: flex;
     flex-direction:column;
-    margin-left: 80px;
+    margin-left: 80px;*/
 }
 .foter-social-contenair-titel{
     display: block;
@@ -603,8 +617,8 @@ color: #FFF;
 
 }
 .footer-form {
-    display: flex;
-    gap: 24px;
+   /* display: flex;
+    gap: 24px;*/
 }
 .footer-input-title{
     color:  #FFF;
@@ -633,7 +647,8 @@ color: #FFF;
         letter-spacing: 0.04em;
         padding-left: 16px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
+margin-bottom: 16px;
+    }
 
 .footer-form-input::placeholder {
     color: rgba(255, 255, 255, 0.3);
